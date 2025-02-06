@@ -8,6 +8,14 @@ This repository is to build the foundation and expertise in medical AI.
 3. The whole page has been broken down in chapters with the time it should take to cover, where you can read about the theory and practical exercises.
 
 ## Chapter 1
+Go to this website and read all chapters starting from 1. Book here: [Click](http://neuralnetworksanddeeplearning.com/chap1.html). Skip the warning
+
 ## Chapter 2
 ## Chapter 3
 ## Chapter 4
+
+
+
+### To Do
+- [x] Add Chapter 1
+- [ ] Add Chapter 2
