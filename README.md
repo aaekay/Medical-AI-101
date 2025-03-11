@@ -9,8 +9,10 @@ This repository is to build the foundation and expertise in medical AI.
 
 ## Chapter 1
 Go to this website and read all chapters starting from 1. Book here: [Click](http://neuralnetworksanddeeplearning.com/chap1.html). Skip the warning
+Now, you are ready to start in the space of radiology. Let's start with the understanding of basic principles of pictures in radiology
 
 ## Chapter 2
+
 ## Chapter 3
 ## Chapter 4
 
