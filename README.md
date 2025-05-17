@@ -7,11 +7,12 @@ This repository is to build the foundation and expertise in medical AI.
 ![image](https://github.com/user-attachments/assets/8c401690-42dc-48df-94f5-506b63be0f4a)
 3. The whole page has been broken down in chapters with the time it should take to cover, where you can read about the theory and practical exercises.
 
-## Chapter 1
+## Chapter 1 - Building the basic understanding
 Go to this website and read all chapters starting from 1. Book here: [Click](http://neuralnetworksanddeeplearning.com/chap1.html). Skip the warning
 Now, you are ready to start in the space of radiology. Let's start with the understanding of basic principles of pictures in radiology
 
-## Chapter 2
+## Chapter 2 - Building the foundation of mathematics
+If you don't have Linear algebra or a college-level understanding of mathematics, refer this book [Click](https://mml-book.github.io/book/mml-book.pdf)
 
 ## Chapter 3
 ## Chapter 4
