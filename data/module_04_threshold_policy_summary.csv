@@ -1,0 +1,7 @@
+scenario,model,fn_cost,fp_cost,recommended_threshold,expected_cost_per_patient,sensitivity_recall,specificity,precision,flag_rate
+Balanced operations,Logistic Regression,6.0,2.0,0.56,1.1333333333333333,0.16666666666666666,0.9166666666666666,0.3333333333333333,0.1
+Balanced operations,Decision Tree,6.0,2.0,0.86,1.2,0.0,1.0,0.0,0.0
+Resource-limited service,Logistic Regression,3.0,3.0,0.78,0.6,0.0,1.0,0.0,0.0
+Resource-limited service,Decision Tree,3.0,3.0,0.86,0.6,0.0,1.0,0.0,0.0
+Safety-first clinic,Logistic Regression,12.0,1.0,0.1,0.9,0.8333333333333334,0.375,0.25,0.6666666666666666
+Safety-first clinic,Decision Tree,12.0,1.0,0.05,1.6,0.5,0.5,0.2,0.5
