@@ -17,6 +17,15 @@ if not os.path.exists("/content/Medical-AI-101"):
 %cd /content/Medical-AI-101/chapters
 ```
 
+## Visual Mental Models (Before You Start Chapters)
+### 1) AI vs Machine Learning vs Deep Learning
+![Placeholder diagram: AI contains ML, and ML contains Deep Learning](assets/ai_ml_dl_placeholder.jpg)
+Placeholder image. Replace with the final nested-concepts diagram.
+
+### 2) Top-Down vs Bottom-Up Learning
+![Placeholder diagram: Top-down and bottom-up learning approaches](assets/top_down_bottom_up_placeholder.svg)
+Placeholder image. Replace with the final learning-approach comparison.
+
 ## Module 0 - Jupyter + Python Bootcamp for Medical Students
 Notebook: [00_jupyter_python_basics_for_medical_students.ipynb](chapters/00_jupyter_python_basics_for_medical_students.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aaekay/Medical-AI-101/blob/main/chapters/00_jupyter_python_basics_for_medical_students.ipynb)
 ### Why this module?
@@ -113,6 +122,23 @@ This chapter shows how model evaluation becomes a clinical policy decision when 
 2. Plot ROC and precision-recall curves for logistic regression and decision tree.
 3. Tune thresholds and see how workload and miss rates change.
 4. Save policy recommendations to `data/module_04_threshold_policy_summary.csv`.
+
+## Module 4A - Bits, Pixels, DICOM, and Chest X-ray Views
+Notebook: [04a_bits_pixels_hu_and_xray_views.ipynb](chapters/04a_bits_pixels_hu_and_xray_views.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aaekay/Medical-AI-101/blob/main/chapters/04a_bits_pixels_hu_and_xray_views.ipynb)
+### Why this module?
+This chapter builds imaging intuition from first principles (bits and pixels) before moving into CT windowing and chest X-ray view classification.
+### Learning objectives
+1. Understand 1-bit, 2-bit, 4-bit, 8-bit, and 16-bit image representations.
+2. Explain 8-bit grayscale and 8-bit RGB pixel structure.
+3. Load a 16-bit CT DICOM slice and map values to Hounsfield Units.
+4. Apply lung and bone windows and interpret why each reveals different anatomy.
+5. Build and compare frontal-vs-lateral chest X-ray classifiers (traditional ML and CNN).
+### What you'll do
+1. Visualize how bit depth changes intensity information.
+2. Inspect pixel matrices in grayscale and color examples.
+3. Run a DICOM HU + windowing demo using a sample CT slice.
+4. Download and prepare a balanced frontal-vs-lateral dataset from Open-I inside the notebook.
+5. Train a Logistic Regression baseline and a compact CNN for view classification.
 
 ## Module 5 - Deep Learning in Chest X-ray (Top-Down Track)
 Dataset setup (one-time, no Kaggle API):

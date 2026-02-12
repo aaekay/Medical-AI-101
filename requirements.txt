@@ -1,8 +1,12 @@
 numpy
 pandas
 matplotlib
+plotly
+nbformat>=4.2.0
 ipywidgets
 scikit-learn
 torch
 pillow
 gdown
+pydicom
+datasets

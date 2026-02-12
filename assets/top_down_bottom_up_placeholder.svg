@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Placeholder diagram for top-down and bottom-up learning approaches">
+  <rect width="100%" height="100%" fill="#f8fafc" />
+
+  <text x="600" y="60" text-anchor="middle" font-size="34" font-family="Arial, sans-serif" fill="#0f172a" font-weight="700">
+    Top-Down vs Bottom-Up Learning
+  </text>
+  <text x="600" y="95" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#334155">
+    Placeholder visual: two teaching strategies
+  </text>
+
+  <rect x="70" y="130" width="500" height="410" rx="24" ry="24" fill="#ecfeff" stroke="#0e7490" stroke-width="4" />
+  <text x="320" y="180" text-anchor="middle" font-size="30" font-family="Arial, sans-serif" fill="#155e75" font-weight="700">
+    Top-Down Approach
+  </text>
+
+  <rect x="180" y="220" width="280" height="68" rx="12" ry="12" fill="#cffafe" stroke="#0891b2" stroke-width="3" />
+  <text x="320" y="262" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#164e63">Big Picture First</text>
+
+  <line x1="320" y1="290" x2="320" y2="336" stroke="#0e7490" stroke-width="4" />
+  <polygon points="320,350 310,332 330,332" fill="#0e7490" />
+
+  <rect x="180" y="352" width="280" height="68" rx="12" ry="12" fill="#bae6fd" stroke="#0284c7" stroke-width="3" />
+  <text x="320" y="394" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#0c4a6e">Core Concepts</text>
+
+  <line x1="320" y1="422" x2="320" y2="468" stroke="#0e7490" stroke-width="4" />
+  <polygon points="320,482 310,464 330,464" fill="#0e7490" />
+
+  <rect x="180" y="484" width="280" height="42" rx="10" ry="10" fill="#7dd3fc" stroke="#0369a1" stroke-width="3" />
+  <text x="320" y="512" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#082f49">Details and Practice</text>
+
+  <rect x="630" y="130" width="500" height="410" rx="24" ry="24" fill="#fefce8" stroke="#a16207" stroke-width="4" />
+  <text x="880" y="180" text-anchor="middle" font-size="30" font-family="Arial, sans-serif" fill="#854d0e" font-weight="700">
+    Bottom-Up Approach
+  </text>
+
+  <rect x="740" y="220" width="280" height="68" rx="12" ry="12" fill="#fef3c7" stroke="#d97706" stroke-width="3" />
+  <text x="880" y="262" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#78350f">Details First</text>
+
+  <line x1="880" y1="290" x2="880" y2="336" stroke="#a16207" stroke-width="4" />
+  <polygon points="880,350 870,332 890,332" fill="#a16207" />
+
+  <rect x="740" y="352" width="280" height="68" rx="12" ry="12" fill="#fde68a" stroke="#ca8a04" stroke-width="3" />
+  <text x="880" y="394" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#713f12">Concept Patterns</text>
+
+  <line x1="880" y1="422" x2="880" y2="468" stroke="#a16207" stroke-width="4" />
+  <polygon points="880,482 870,464 890,464" fill="#a16207" />
+
+  <rect x="740" y="484" width="280" height="42" rx="10" ry="10" fill="#fcd34d" stroke="#a16207" stroke-width="3" />
+  <text x="880" y="512" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#422006">Big Picture Later</text>
+
+  <text x="600" y="585" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#475569">
+    Replace this placeholder with your final educational graphic.
+  </text>
+</svg>
