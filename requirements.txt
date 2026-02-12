@@ -5,3 +5,4 @@ ipywidgets
 scikit-learn
 torch
 pillow
+gdown

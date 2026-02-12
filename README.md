@@ -115,6 +115,9 @@ This chapter shows how model evaluation becomes a clinical policy decision when 
 4. Save policy recommendations to `data/module_04_threshold_policy_summary.csv`.
 
 ## Module 5 - Deep Learning in Chest X-ray (Top-Down Track)
+Dataset setup (one-time, no Kaggle API):
+`python scripts/setup_chest_xray_from_gdrive.py`
+
 ### Part A: Problem Framing and Method Map
 Notebook: [05a_chest_xray_problem_and_method_map.ipynb](chapters/05a_chest_xray_problem_and_method_map.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aaekay/Medical-AI-101/blob/main/chapters/05a_chest_xray_problem_and_method_map.ipynb)
 1. Start with a clinical triage problem in chest radiology.
