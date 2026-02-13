@@ -13,3 +13,4 @@ datasets
 scikit-image
 torchvision
 kaggle
+kagglehub
