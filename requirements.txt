@@ -10,3 +10,6 @@ pillow
 gdown
 pydicom
 datasets
+scikit-image
+torchvision
+kaggle

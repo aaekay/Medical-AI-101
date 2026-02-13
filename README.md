@@ -133,12 +133,15 @@ This chapter builds imaging intuition from first principles (bits and pixels) be
 3. Load a 16-bit CT DICOM slice and map values to Hounsfield Units.
 4. Apply lung and bone windows and interpret why each reveals different anatomy.
 5. Build and compare frontal-vs-lateral chest X-ray classifiers (traditional ML and CNN).
+6. Compare pneumothorax detection with traditional ML vs deep learning.
 ### What you'll do
 1. Visualize how bit depth changes intensity information.
 2. Inspect pixel matrices in grayscale and color examples.
 3. Run a DICOM HU + windowing demo using a sample CT slice.
 4. Download and prepare a balanced frontal-vs-lateral dataset from Open-I inside the notebook.
 5. Train a Logistic Regression baseline and a compact CNN for view classification.
+6. Download SIIM pneumothorax data in Colab, build balanced train/val/test splits, and cache normalized PNGs.
+7. Compare a traditional ML baseline (HOG + Logistic Regression) against a deep baseline (ResNet18 transfer learning).
 
 ## Module 5 - Deep Learning in Chest X-ray (Top-Down Track)
 Dataset setup (one-time, no Kaggle API):
