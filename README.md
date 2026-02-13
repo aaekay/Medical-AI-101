@@ -167,5 +167,21 @@ Notebook: [05c_chest_xray_metrics_thresholds_and_hyperparameters.ipynb](chapters
 
 
 
-### To Do
-- [ ] Add Module 6
+## Module 6 - Neural Networks from Scratch (Interactive)
+Notebook: [06_neural_networks_from_scratch_interactive.ipynb](chapters/06_neural_networks_from_scratch_interactive.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aaekay/Medical-AI-101/blob/main/chapters/06_neural_networks_from_scratch_interactive.ipynb)
+### Why this module?
+This chapter builds intuitive neural network understanding from biological inspiration to practical optimization, with visual interactive demos.
+### Learning objectives
+1. Connect biological neuron behavior to perceptron design.
+2. Understand how inputs, weights, bias, and threshold produce outputs.
+3. Compare common activation functions and their effects.
+4. Explain loss functions as model error targets.
+5. Understand backpropagation as iterative error correction.
+6. Distinguish local minima from global minima in optimization.
+### What you'll do
+1. Explore neuron firing logic with threshold sliders.
+2. Manipulate a perceptron decision boundary with live controls.
+3. Compare activation function shapes and outputs interactively.
+4. Inspect regression and classification losses under changing predictions.
+5. Run backprop updates and observe loss reduction.
+6. Visualize gradient descent paths on a multi-minima loss landscape.
