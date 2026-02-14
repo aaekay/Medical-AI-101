@@ -199,3 +199,20 @@ This chapter builds intuitive neural network understanding from biological inspi
 4. Inspect regression and classification losses under changing predictions.
 5. Run backprop updates and observe loss reduction.
 6. Visualize gradient descent paths on a multi-minima loss landscape.
+
+## Module 7 - Full ML Pipeline with MNIST (Interactive)
+Notebook: [07_mnist_ml_pipeline_interactive_from_scratch.ipynb](chapters/07_mnist_ml_pipeline_interactive_from_scratch.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aaekay/Medical-AI-101/blob/main/chapters/07_mnist_ml_pipeline_interactive_from_scratch.ipynb)
+### Why this module?
+This chapter walks through the complete machine learning pipeline using handwritten digit data with heavy visualization and interactive controls.
+### Learning objectives
+1. Understand data loading, EDA, labels, scaling, and normalization in one end-to-end flow.
+2. Compare supervised prediction and unsupervised grouping with traditional ML.
+3. Train a neural network from scratch for binary classification (digit 1 vs not 1).
+4. Use threshold sliders to interpret TP, FP, TN, FN, sensitivity, specificity, precision, and F1.
+5. Expand to multiclass prediction (0-9) with a from-scratch neural network and compare metrics.
+### What you'll do
+1. Explore MNIST samples and label distribution with interactive widgets.
+2. Compare raw, min-max, and z-score image representations side-by-side.
+3. Train Logistic Regression and KMeans and inspect confusion/grouping behavior.
+4. Train a binary neural net from scratch and tune threshold interactively.
+5. Train a multiclass neural net from scratch and inspect per-digit performance changes.
