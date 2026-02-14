@@ -143,6 +143,20 @@ This chapter builds imaging intuition from first principles (bits and pixels) be
 6. Download SIIM pneumothorax data in Colab, build balanced train/val/test splits, and cache normalized PNGs.
 7. Compare a traditional ML baseline (HOG + Logistic Regression) against a deep baseline (ResNet18 transfer learning).
 
+## Module 4B - Probability, Threshold, and Prevalence (Interactive)
+Notebook: [04b_probability_thresholds_and_prevalence_interactive.ipynb](chapters/04b_probability_thresholds_and_prevalence_interactive.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aaekay/Medical-AI-101/blob/main/chapters/04b_probability_thresholds_and_prevalence_interactive.ipynb)
+### Why this module?
+This chapter gives an interactive, visual understanding of how AI probabilities become clinical decisions through thresholding and how prevalence changes interpretation.
+### Learning objectives
+1. Understand how threshold changes TP, TN, FP, and FN.
+2. Relate threshold movement to sensitivity, specificity, precision, NPV, and F1.
+3. Compare ROC-AUC and PR-AUC when prevalence is shifted.
+4. Explain why PPV changes with prevalence even when sensitivity/specificity stay fixed.
+### What you'll do
+1. Use sliders to change threshold and watch confusion matrix updates live.
+2. Skew prevalence and compare ROC and PR curves side by side.
+3. Keep sensitivity/specificity fixed and observe PPV changes across prevalence scenarios.
+
 ## Module 5 - Deep Learning in Chest X-ray (Top-Down Track)
 Dataset setup (one-time, no Kaggle API):
 `python scripts/setup_chest_xray_from_gdrive.py`
